@@ -1,0 +1,15 @@
+comexdata:
+  outputs:
+    blue:
+      type: duckdb
+      path: dev.duckdb
+      threads: 1
+      schema: dbt_blue
+
+    green:
+      type: duckdb
+      path: dev.duckdb
+      threads: 1
+      schema: dbt_green
+
+  target: blue

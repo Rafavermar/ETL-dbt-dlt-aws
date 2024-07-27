@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: fact_comex
+    description: "Tabla de hechos que registra las transacciones de comercio exterior."
+    columns:
+      - name: total_euros
+        description: "Valor de la transacción en euros."
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 700000000000
+
+      - name: mes
+        description: "Mes de la transacción."
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 1
+              max_value: 12
+
+      - name: cod_taric
+        description: "Código TARIC de la transacción."
+        tests:
+          - not_null
+
+  - name: dim_paises
+    columns:
+      - name: cod_pais
+        description: "Código del país."
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_unique

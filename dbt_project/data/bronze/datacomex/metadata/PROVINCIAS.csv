@@ -1,0 +1,54 @@
+cod_provincia,provincia,cod_comunidad,comunidad
+0,No determinado,0,No determinado
+1,Araba/Alava,14,País Vasco
+2,Albacete,7,Castilla-La Mancha
+3,Alicante,13,Comunitat Valenciana
+4,Almería,1,Andalucía
+5,Ávila,6,Castilla y León
+6,Badajoz,9,Extremadura
+7,"Balears, Illes",4,"Balears, Illes"
+8,Barcelona,8,Cataluña
+9,Burgos,6,Castilla y León
+10,Cáceres,9,Extremadura
+11,Cádiz,1,Andalucía
+12,Castellón,13,Comunitat Valenciana
+13,Ciudad Real,7,Castilla-La Mancha
+14,Córdoba,1,Andalucía
+15,"Coruña, A",10,Galicia
+16,Cuenca,7,Castilla-La Mancha
+17,Girona,8,Cataluña
+18,Granada,1,Andalucía
+19,Guadalajara,7,Castilla-La Mancha
+20,Gipuzkoa,14,País Vasco
+21,Huelva,1,Andalucía
+22,Huesca,2,Aragón
+23,Jaén,1,Andalucía
+24,León,6,Castilla y León
+25,Lleida,8,Cataluña
+26,"Rioja, La",16,"Rioja, La"
+27,Lugo,10,Galicia
+28,Madrid,15,"Madrid, Comunidad de"
+29,Málaga,1,Andalucía
+30,Murcia,11,"Murcia, Región de"
+31,Navarra,12,"Navarra, Comunidad Foral de"
+32,Ourense,10,Galicia
+33,Asturias,3,"Asturias, Principado de"
+34,Palencia,6,Castilla y León
+35,"Palmas, Las",5,Canarias
+36,Pontevedra,10,Galicia
+37,Salamanca,6,Castilla y León
+38,Santa Cruz de Tenerife,5,Canarias
+39,Cantabria,17,Cantabria
+40,Segovia,6,Castilla y León
+41,Sevilla,1,Andalucía
+42,Soria,6,Castilla y León
+43,Tarragona,8,Cataluña
+44,Teruel,2,Aragón
+45,Toledo,7,Castilla-La Mancha
+46,Valencia,13,Comunitat Valenciana
+47,Valladolid,6,Castilla y León
+48,Bizkaia,14,País Vasco
+49,Zamora,6,Castilla y León
+50,Zaragoza,2,Aragón
+51,Ceuta,18,Ceuta
+52,Melilla,19,Melilla

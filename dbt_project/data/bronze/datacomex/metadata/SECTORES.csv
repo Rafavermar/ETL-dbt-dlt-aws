@@ -1,0 +1,191 @@
+cod_sec,nivel_sec,sec
+1,1,"Alimentación, bebidas y tabaco"
+11,2,Productos cárnicos
+110,3,Productos cárnicos
+1100,4,Productos cárnicos
+12,2,Lácteos y huevos
+120,3,Lácteos y huevos
+1200,4,Lácteos y huevos
+13,2,Productos pesqueros
+130,3,Productos pesqueros
+1300,4,Productos pesqueros
+14,2,Cereales
+140,3,Cereales
+1400,4,Cereales
+15,2,"Frutas, hortalizas y legumbres"
+150,3,"Frutas, hortalizas y legumbres"
+1500,4,"Frutas, hortalizas y legumbres"
+16,2,"Azúcar, café y cacao"
+160,3,"Azúcar, café y cacao"
+1600,4,"Azúcar, café y cacao"
+17,2,Preparados alimenticios
+170,3,Preparados alimenticios
+1700,4,Preparados alimenticios
+18,2,Bebidas
+180,3,Bebidas
+1800,4,Bebidas
+19,2,Tabacos
+190,3,Tabacos
+1900,4,Tabacos
+1A,2,Grasas y aceites
+1A0,3,Grasas y aceites
+1A00,4,Grasas y aceites
+1B,2,Semillas y frutos oleaginosos
+1B0,3,Semillas y frutos oleaginosos
+1B00,4,Semillas y frutos oleaginosos
+1C,2,Piensos animales
+1C0,3,Piensos animales
+1C00,4,Piensos animales
+2,1,Productos energéticos
+21,2,Carbón
+210,3,Carbón
+2100,4,Carbón
+22,2,Petróleo y derivados
+220,3,Petróleo y derivados
+2200,4,Petróleo y derivados
+23,2,Gas
+230,3,Gas
+2300,4,Gas
+24,2,Corriente eléctrica
+240,3,Corriente eléctrica
+2400,4,Corriente eléctrica
+3,1,Materias primas
+31,2,Mat. primas animales y vegetal
+310,3,Mat. primas animales y vegetal
+3100,4,Mat. primas animales y vegetal
+32,2,Menas y minerales
+320,3,Menas y minerales
+3200,4,Menas y minerales
+4,1,Semimanufacturas
+41,2,Metales no ferrosos
+410,3,Metales no ferrosos
+4100,4,Metales no ferrosos
+42,2,Hierro y acero
+420,3,Hierro y acero
+4200,4,Hierro y acero
+43,2,Productos químicos
+431,3,Productos químicos orgánicos
+4310,4,Productos químicos orgánicos
+432,3,Productos químicos inorgánicos
+4320,4,Productos químicos inorgánicos
+433,3,Medicamentos
+4330,4,Medicamentos
+434,3,Plásticos
+4341,4,Materias primas plásticas
+4342,4,Manufacturas plásticas
+435,3,Abonos
+4350,4,Abonos
+436,3,Colorantes y curtientes
+4360,4,Colorantes y curtientes
+437,3,Aceites esenciales y perfumado
+4370,4,Aceites esenciales y perfumado
+438,3,Otros productos químicos
+4380,4,Otros productos químicos
+44,2,Otras semimanufacturas
+441,3,Papel
+4410,4,Papel
+442,3,Material de construcción
+4421,4,Cal y cemento
+4422,4,Otros mat. de construcción
+4423,4,Vidrio
+443,3,Neumáticos y cámaras
+4430,4,Neumáticos y cámaras
+444,3,Resto otras semimanufacturas
+4440,4,Resto otras semimanufacturas
+5,1,Bienes de equipo
+51,2,Maq. específica ciertas industrias
+511,3,Maquinarias agrícolas
+5110,4,Maquinarias agrícolas
+512,3,Maquinaria obras públicas
+5120,4,Maquinaria obras públicas
+513,3,Maquinaria textil
+5130,4,Maquinaria textil
+514,3,Maquinaria para trabajar metal
+5140,4,Maquinaria para trabajar metal
+515,3,Maq. para ciertas industrias
+5150,4,Maq. para ciertas industrias
+516,3,Maq. para uso gral industria
+5160,4,Maq. para uso gral industria
+52,2,Equipo oficina y telecomunicación
+521,3,Equipo de oficina
+5210,4,Equipo de oficina
+522,3,Maq. automatización datos
+5220,4,Maq. automatización datos
+523,3,Equipo telecomunicación
+5230,4,Equipo telecomunicación
+53,2,Material transporte
+531,3,Material ferroviario
+5310,4,Material ferroviario
+532,3,Vehic. trans. mercancías carretera
+5320,4,Vehic. trans. mercancías carretera
+533,3,Buques
+5330,4,Buques
+534,3,Aeronaves
+5340,4,Aeronaves
+54,2,Otros bienes de equipo
+541,3,Equipo generador de fuerza
+5410,4,Equipo generador de fuerza
+542,3,Aparatos eléctricos
+5421,4,Motores eléctricos
+5422,4,Transformadores eléctricos
+5423,4,Otros aparatos eléctricos
+543,3,Aparatos de precisión
+5430,4,Aparatos de precisión
+544,3,Resto bienes de equipo
+5440,4,Resto bienes de equipo
+6,1,Sector automóvil
+61,2,Automóviles y motos
+610,3,Automóviles y motos
+6100,4,Automóviles y motos
+62,2,Componentes del automóvil
+620,3,Componentes del automóvil
+6200,4,Componentes del automóvil
+7,1,Bienes de consumo duradero
+71,2,Electrodomésticos
+710,3,Electrodomésticos
+7100,4,Electrodomésticos
+72,2,Electrónica de consumo
+720,3,Electrónica de consumo
+7200,4,Electronica de consumo
+73,2,Muebles
+730,3,Muebles
+7300,4,Muebles
+74,2,Otros bienes consumo duradero
+740,3,Otros bienes consumo duradero
+7400,4,Otros bienes consumo duradero
+8,1,Manufacturas de consumo
+81,2,Textiles y confección
+811,3,Fibras textiles
+8110,4,Fibras textiles
+812,3,Hilados
+8120,4,Hilados
+813,3,Tejidos
+8130,4,Tejidos
+814,3,Vestuario
+8141,4,Ropa de punto
+8142,4,Ropa no de punto
+8143,4,Resto de prendas
+815,3,Resto textiles
+8150,4,Resto textiles
+82,2,Calzado
+820,3,Calzado
+8200,4,Calzado
+83,2,Juguetes
+830,3,Juguetes
+8300,4,Juguetes
+84,2,Alfarería
+840,3,Alfarería
+8400,4,Alfarería
+85,2,Joyería y relojes
+850,3,Joyería y relojes
+8500,4,Joyería y relojes
+86,2,Cuero y manufacturas del cuero
+860,3,Cuero y manufacturas del cuero
+8600,4,Cuero y manufacturas del cuero
+87,2,Otras manufacturas de consumo
+870,3,Otras manufacturas de consumo
+8700,4,Otras manufacturas de consumo
+9,1,Otras mercancías
+90,2,Otras mercancías
+900,3,Otras mercancías
+9000,4,Otras mercancías

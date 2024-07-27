@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  dbt_demo:
+    build:
+      context: .
+    image: t_dbt
+    container_name: dbt_demo
+    volumes:
+    - ./dbt_project:/dbt_project
+    command: tail -f /dev/null
+    ports:
+      - "8080:8080"  # Puerto para Streamlit si decides ejecutarlo dentro del mismo contenedor

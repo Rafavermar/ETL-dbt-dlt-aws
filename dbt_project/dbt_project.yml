@@ -1,0 +1,33 @@
+name: 'comexdata'
+version: '1.0.0'
+profile: 'comexdata'
+
+model-paths: ["comexdata/models"]
+analysis-paths: ["comexdata/analyses"]
+test-paths: ["comexdata/tests"]
+seed-paths: ["comexdata/seeds"]
+macro-paths: ["comexdata/macros"]
+snapshot-paths: ["comexdata/snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  comexdata:
+    01staging:
+      +materialized: table
+    02cleaned:
+      +materialized: view
+    03enriched:
+      +materialized: view
+    04structural:
+      +materialized: view
+    05datamart:
+      +materialized: table
+    06analysis:
+      +materialized: table
+
+# Configuración de variables
+vars:
+  'dbt_expectations:time_zone': 'Europe/Madrid'

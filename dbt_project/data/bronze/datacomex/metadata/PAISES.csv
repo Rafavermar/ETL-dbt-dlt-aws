@@ -1,0 +1,292 @@
+cod_pais,pais
+1,Francia
+2,Bélgica y Luxemburgo
+3,Países Bajos
+4,Alemania
+5,Italia
+6,Reino Unido
+7,Irlanda
+8,Dinamarca
+9,Grecia
+10,Portugal
+11,España (excp.Ceuta y Melilla)
+17,Bélgica
+18,Luxemburgo
+21,Ceuta
+22,Ceuta y Melilla
+23,Melilla
+24,Islandia
+25,Islas Feroe
+27,Svalbard (archipiélago)
+28,Noruega
+30,Suecia
+32,Finlandia
+36,Suiza
+37,Liechtenstein
+38,Austria
+39,Suiza
+40,Portugal
+41,Islas Feroe
+43,Andorra
+44,Gibraltar
+45,Ciudad del Vaticano
+46,Malta
+47,San Marino
+48,Yugoslavia
+52,Turquía
+53,Estonia
+54,Letonia
+55,Lituania
+56,Unión Soviética
+58,R.D. Alemania
+60,Polonia
+61,República Checa
+62,Checoslovaquia
+63,Eslovaquia
+64,Hungría
+66,Rumanía
+68,Bulgaria
+70,Albania
+72,Ucrania
+73,Bielorusia
+74,Moldavia
+75,Rusia
+76,Georgia
+77,Armenia
+78,Azerbaiján
+79,Kazajstán
+80,Turkmenistán
+81,Uzbekistán
+82,Tajikistán
+83,Kirguistán
+90,Yugoslavia
+91,Eslovenia
+92,Croacia
+93,Bosnia-Herzegovina
+94,Serbia y Montenegro
+95,Kosovo
+96,Macedonia del Norte
+97,Montenegro
+98,Serbia
+99,Kosovo
+204,Marruecos
+208,Argelia
+212,Túnez
+216,Libia
+220,Egipto
+224,Sudán
+225,Sudán del Sur
+228,Mauritania
+229,Sáhara Occidental
+232,Mali
+236,Burkina Faso (ant. Alto Volta)
+240,Níger
+244,Chad
+247,Cabo Verde
+248,Senegal
+252,Gambia
+257,Guinea Bissau
+260,Guinea
+264,Sierra Leona
+268,Liberia
+272,Costa de Marfil
+276,Ghana
+280,Togo
+284,Benin
+288,Nigeria
+302,Camerún
+306,República Centroafricana
+310,Guinea Ecuatorial
+311,Santo Tomé y Príncipe
+314,Gabón
+318,Congo
+322,R.D. del Congo
+324,Ruanda
+328,Burundi
+329,Santa Elena
+330,Angola
+334,Etiopía
+336,Eritrea
+338,Djibouti
+342,Somalia
+346,Kenia
+350,Uganda
+352,Tanzania
+355,Seychelles
+357,Territorio Británico Indico
+366,Mozambique
+370,Madagascar
+372,Reunión
+373,Mauricio
+375,Comoras
+377,Mayotte
+378,Zambia
+382,Zimbabwe
+386,Malawi
+388,Sudáfrica
+389,Namibia
+390,Sudáfrica (incl.Namibia)
+391,Botswana
+393,Swazilandia
+395,Lesotho
+400,Estados Unidos
+404,Canadá
+406,Groenlandia
+408,San Pedro y Miquelón
+412,México
+413,Bermudas
+416,Guatemala
+421,Belice
+424,Honduras
+428,El Salvador
+432,Nicaragua
+436,Costa Rica
+440,Panamá
+442,Panamá
+444,Canal de Panamá
+446,Anguilla
+448,Cuba
+449,San Cristóbal y Nieves
+450,Indias Occidentales
+451,Indias Occidentales
+452,Haití
+453,Bahamas
+454,Islas Turcas y Caicos
+455,Indias Occidentales
+456,República Dominicana
+457,Islas Virgenes (EEUU)
+458,Guadalupe
+459,Antigua y Barbuda
+460,Dominica
+461,Islas Vírgenes (GB) y Montserrat
+462,Martinica
+463,Islas Caimán
+464,Jamaica
+465,Santa Lucía
+466,Sant Bartolomé
+467,San Vicente y Granadinas
+468,Islas Virgenes (GB)
+469,Barbados
+470,Montserrat
+472,Trinidad y Tobago
+473,Granada
+474,Aruba
+475,Curaçao
+476,Antillas Neerlandesas (incl.Aruba)
+477,"Bonaire, San Eustaquio y Saba"
+478,Antillas Neerlandesas
+479,San Martín
+480,Colombia
+484,Venezuela
+488,Guyana
+492,Surinam
+496,Guyana Francesa
+500,Ecuador
+504,Perú
+508,Brasil
+512,Chile
+516,Bolivia
+520,Paraguay
+524,Uruguay
+528,Argentina
+529,Islas Malvinas (Falkland)
+600,Chipre
+604,Líbano
+608,Siria
+612,Irak
+616,Irán
+624,Israel
+625,Cisjordania/Franja de Gaza
+626,Timor-Leste
+628,Jordania
+632,Arabia Saudí
+636,Kuwait
+640,Bahrein
+644,Qatar
+647,Emiratos Árabes Unidos
+649,Omán
+652,Yemen del Norte
+653,Yemen
+656,Yemen del Sur
+660,Afganistán
+662,Pakistán
+664,India
+666,Bangladesh
+667,Islas Maldivas
+669,Sri Lanka
+672,Nepal
+675,Bután
+676,Myanmar
+680,Tailandia
+684,Laos
+690,Vietnam
+696,Camboya (Campuchea)
+700,Indonesia
+701,Malasia
+703,Brunei Darussalam
+706,Singapur
+708,Filipinas
+716,Mongolia
+720,China
+724,Corea del Norte (Rep.Pop.Dem.de Corea)
+728,Corea del Sur (Rep. de Corea)
+732,Japón
+736,Taiwán
+740,Hong-Kong
+743,Macao
+800,Australia
+801,Papúa Nueva Guinea
+802,I.Marianas Norte;Oc.Australiana
+803,Nauru
+804,Nueva Zelanda
+806,Islas Salomon
+807,Tuvalu
+808,Azores (I.Salomon)
+809,Nueva Caledonia y dependencias
+810,"Azores;O.Am.,Pal.;Kirib."
+811,Islas Wallis y Futuna
+812,Kiribati
+813,Pitcairn
+814,Oc.Holand.; Oc.Neozeland.
+815,Islas Fiyi(Fidji)
+816,Vanuatu
+817,Tonga
+819,Samoa Occidental
+820,Islas Marianas del Norte
+822,Polinesia Francesa
+823,Micronesia Estados Federados
+824,Islas Marshall
+825,Palau
+830,Samoa Americana
+831,Guam
+832,Islas Menores alejadas Estados Unidos
+833,Islas Cocos o islas Keeling
+834,Isla Navidad
+835,Isla Heard e Islas McDonald
+836,Isla Norfolk
+837,Islas Cook
+838,Isla Niue
+839,Islas Tokelau
+890,Regiones Polares
+891,Antártida
+892,Isla Bouvet
+893,Georgia del Sur e Islas Sandwich Sur
+894,Tierras Australes Francesas
+911,Operaciones Especiales (España)
+921,Pesca altura origen España
+922,Pesca altura origen otro estado miembro
+949,Avituallamiento buques aeronaves nacionales
+950,Avituallamiento y combustible
+951,Avituall.y combust.intercambios comunitarios
+952,Avituallamiento terceros
+953,Alta mar fuera de las aguas territoriales
+954,Pesca de altura
+955,Alta mar fuera de las aguas territoriales
+958,Países y territorios no determinados
+959,Países y territorios no determinados.Intraco.
+960,Países y territorios no determinados.Extraco.
+975,Países y territ.no precisad.raz.com.Intra.
+976,Países y territ.no precisad.raz.com.Extra.
+977,Países y territ.no precisad.raz.com.mili.
+978,Países y territ.no prec.raz.com.Intra.;Código País Especial
+979,Países y territ.no prec.raz.com.Extra.
