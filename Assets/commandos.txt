@@ -1,0 +1,30 @@
+-------------------------------
+---------ORQUESTADOR-----------
+python orchestrator.py
+------------------------------
+
+-----------------------------------------------
+-----EJECUCION MANUAL DE PIPELINES DLT---------
+
+python ETL-dbt-dlt-aws/dlt_scripts/fetch_comexdata_dlt.py
+Python ETL-dbt-dlt-aws/dlt_scripts/fetch_metadata_dlt.py
+-----------------------------------------------
+
+
+-------------------------------------------------------
+---------ACCESO MANUAL A CONTENEDOR DBT DOCKER---------
+
+docker exec -it dbt_demo /bin/bash
+
+dbt run
+dbt test
+
+
+dbt run --profiles-dir . --target green --empty
+
+dbt run-operation publish --profiles-dir . --target green
+
+
+streamlit run streamlit/dashboard.py --server.port 8080
+
+------------------------------------------------------------

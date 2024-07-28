@@ -2,8 +2,7 @@ import os
 import boto3
 from dotenv import load_dotenv
 import subprocess
-import schedule
-import time
+
 
 # Cargar las variables de entorno
 load_dotenv()
@@ -78,18 +77,6 @@ def main():
     run_dbt_commands()
     run_streamlit()
 
-
-def job():
-    print("Ejecutando la tarea programada...")
-    main()
-
-
-# Programar la ejecución
-schedule.every().month.at("00:00").do(job)  # Ajusta la hora según necesites
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
 
 if __name__ == "__main__":
     main()

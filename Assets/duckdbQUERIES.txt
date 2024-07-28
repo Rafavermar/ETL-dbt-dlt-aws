@@ -1,0 +1,55 @@
+---------------------------------------
+---------ACCEDER AL CONTENEDOR---------
+
+docker exec -it dbt_demo /bin/bash
+-------------------------------------
+
+
+--------------------------------------------
+-----ACCEDER A LA BASE DE DATOS DUCKDB------
+
+duckdb dev.duckdb
+
+
+SHOW ALL TABLES;
+
+DESCRIBE dbt_blue.fact_comex;
+
+SELECT COUNT(*) FROM dbt_blue.fact_comex;
+SELECT COUNT(*) FROM dbt_blue.cleaned_comex;
+SELECT COUNT(*) FROM dbt_blue.formatted_comex;
+
+SELECT * FROM dbt_blue.fact_comex LIMIT 10;
+SELECT * FROM dbt_blue.cleaned_comex LIMIT 10;
+SELECT * FROM dbt_blue.enriched_comex LIMIT 10;
+SELECT * FROM dbt_blue.formatted_comex LIMIT 10;
+
+SELECT cod_taric, SUM(total_euros) AS total_euros, AVG(avg_euros_per_kg) AS avg_euros_per_kg
+FROM dbt_blue.fact_comex
+GROUP BY cod_taric
+LIMIT 10;
+
+DESCRIBE dbt_blue.fact_comex;
+
+SELECT COUNT(*) FROM dbt_blue.fact_comex WHERE cod_taric IS NULL;
+SELECT COUNT(*) FROM dbt_blue.fact_comex WHERE euros IS NULL;
+SELECT COUNT(*) FROM dbt_blue.fact_comex WHERE kilogramos IS NULL;
+
+SELECT cod_taric, COUNT(*) FROM dbt_blue.cleaned_comex GROUP BY cod_taric ORDER BY COUNT(*) DESC LIMIT 10;
+SELECT cod_taric, COUNT(*) FROM dbt_blue.enriched_comex GROUP BY cod_taric ORDER BY COUNT(*) DESC LIMIT 10;
+SELECT cod_taric, COUNT(*) FROM dbt_blue.formatted_comex GROUP BY cod_taric ORDER BY COUNT(*) DESC LIMIT 10;
+
+
+#### CONSULTAS DE PRODUCTOS CONCRETOS #####
+
+-- Equipos tecnológicos como portátiles
+
+SELECT *
+FROM dbt_blue.fact_comex
+WHERE cod_taric = '847130';
+
+-- Smartphones
+
+SELECT *
+FROM dbt_blue.fact_comex
+WHERE cod_taric = '851713';
