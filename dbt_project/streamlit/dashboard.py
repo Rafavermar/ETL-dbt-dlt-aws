@@ -3,6 +3,8 @@ import duckdb
 import pandas as pd
 import matplotlib.pyplot as plt
 
+pd.options.display.float_format = '{:.2f}'.format
+
 # Configuración del layout de la página
 st.set_page_config(layout="wide")
 
@@ -29,7 +31,7 @@ WITH RankedData AS (
     SELECT
         flujo,
         pais,
-        año,
+        CAST(año AS VARCHAR) AS año,
         mes,
         taric,
         cod_taric,
@@ -47,14 +49,18 @@ WHERE rank <= 5
 """
 df_top5 = con.execute(query_top5, (flujo[0], mes_inicio, mes_fin)).df()
 
+# Formatear los datos para visualización
+df_top5['flujo'] = df_top5['flujo'].map({'I': 'Importación', 'E': 'Exportación'})
+df_top5['mes'] = df_top5['mes'].apply(lambda x: {1: 'Enero', 2: 'Febrero', 3: 'Marzo', 4: 'Abril', 5: 'Mayo', 6: 'Junio', 7: 'Julio', 8: 'Agosto', 9: 'Septiembre', 10: 'Octubre', 11: 'Noviembre', 12: 'Diciembre'}.get(x, ''))
+
 # Mostrar tabla Top 5
 st.header("Top 5 de Códigos TARIC por Total de Euros (en millones) y mes")
-st.table(df_top5)
+st.dataframe(df_top5)
 
 # Consulta para obtener detalles para el código TARIC seleccionado
 query_details = """
 SELECT
-    año,
+    CAST(año AS VARCHAR) AS año,
     mes,
     flujo,
     taric,
@@ -67,10 +73,15 @@ GROUP BY año, mes, flujo, taric
 ORDER BY año, mes
 """
 df_details = con.execute(query_details, (selected_taric,)).df()
+df_details['flujo'] = df_details['flujo'].map({'I': 'Importación', 'E': 'Exportación'})
+df_details['mes'] = df_details['mes'].apply(lambda x: {1: 'Enero', 2: 'Febrero', 3: 'Marzo', 4: 'Abril', 5: 'Mayo', 6: 'Junio', 7: 'Julio', 8: 'Agosto', 9: 'Septiembre', 10: 'Octubre', 11: 'Noviembre', 12: 'Diciembre'}.get(x, ''))
+
 
 # Mostrar detalles para el código TARIC seleccionado
 st.header(f"Detalles para el código TARIC {selected_taric}")
-st.table(df_details)
+st.dataframe(df_details)
+
+
 # Consulta para obtener tendencias mensuales
 query_trends = """
 SELECT
